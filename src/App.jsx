@@ -262,7 +262,8 @@ function App() {
     <MenubarTrigger>File</MenubarTrigger>
     <MenubarContent>
       <MenubarItem>
-        New Tab <MenubarShortcut>⌘T</MenubarShortcut>
+        New Tab <MenubarShortcut>⌘
+          T</MenubarShortcut>
       </MenubarItem>
       <MenubarItem>New Window</MenubarItem>
       <MenubarSeparator />
