@@ -1,25 +1,24 @@
-# Node.js loyihalari uchun
-node_modules/      # Node modullari
-dist/              # Qurilgan fayllar (build)
-.env               # Maxfiy kalitlar va sozlamalar
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
 
-# OS fayllari
-.DS_Store          # MacOS tizim fayli
-Thumbs.db          # Windows tizim fayli
+node_modules
+dist
+dist-ssr
+*.local
 
-# IDE fayllari
-.vscode/           # VS Code sozlamalari
-.idea/             # JetBrains (WebStorm, PhpStorm)
-
-# Log fayllari
-npm-debug.log
-yarn-debug.log
-yarn-error.log
-
-# Loyiha fayllari
-*.log              # Har qanday log fayllar
-*.env.*            # Masalan: .env.production
-
-# Boshqa
-coverage/          # Test qamrovi
-build/             # Build fayllari
+# Editor directories and files
+.vscode/*
+!.vscode/extensions.json
+.idea
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
